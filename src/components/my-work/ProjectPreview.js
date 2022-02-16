@@ -11,10 +11,11 @@ const ProjectPreview = (props) => {
     if(number % 2 === 1) {
         return (
             <div className="ProjectPreview">
-                <div className="ProjectImage"><img src={picture} alt="Logo"/></div>
-                <div className="ProjectDescription">
-                    <h1>Quick, help! - Quick, Draw! wannabe</h1>
-                    <h2>A project I've prepared for my Computer Science thesis</h2>
+                <img className="ProjectImage sm" src={picture} alt="A screen of the project"/>
+                {/*<div className="ProjectImage"><img src={picture} alt="Logo"/></div>*/}
+                <div className="ProjectDescription sm">
+                    <h3>Quick, help!</h3>
+                    <h4>Quick, draw! wannabe</h4>
                     <p>After some experience in neural network, I wanted to prepare a bigger project. The aim of the
                         project was to recreate Google's online game. </p>
                 </div>
@@ -22,13 +23,13 @@ const ProjectPreview = (props) => {
     }
     return (
         <div className="ProjectPreview">
-            <div className="ProjectDescription">
-                <h1>Quick, help! - Quick, Draw! wannabe</h1>
-                <h2>A project I've prepared for my Computer Science thesis</h2>
+            <div className="ProjectDescription sm">
+                <h3>Quick, help!</h3>
+                <h4>Quick, draw!</h4>
                 <p>After some experience in neural network, I wanted to prepare a bigger project. The aim of the
                     project was to recreate Google's online game. </p>
             </div>
-            <div className="ProjectImage"><img src={picture} alt="Logo"/></div>
+            <img className="ProjectImage sm" src={picture} alt="A screen of the project"/>
         </div>);
 }
 

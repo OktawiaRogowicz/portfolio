@@ -1,0 +1,23 @@
+.section-container {
+    display: flex;
+}
+
+/* subsection margin */
+.sm {
+    margin: 1em;
+}
+
+.section-sub {
+    flex-grow: 1;
+}
+
+.s2 {
+
+}
+
+.circular-image {
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+    border: 1px solid var(--color3);
+}

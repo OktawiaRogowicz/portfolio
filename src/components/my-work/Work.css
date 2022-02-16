@@ -1,4 +1,6 @@
 .ProjectPreview {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
     display: flex;
 }
 
@@ -13,27 +15,26 @@
     overflow: hidden;
 }
 
-.ProjectImage img {
-    transition: transform .5s ease;
-}
-
-.ProjectImage:hover img {
-    transform: scale(1.5);
+.Timeline {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
 }
 
 .Timeline p {
     position: relative;
     overflow: hidden;
     text-align:left;
-    font-size: 5em;
-    font-family: 'Domine', serif;
+    font-size: 36px;
+    font-family: 'DM Serif Display', serif;
+    margin: 0;
+    color: var(--color2);
 }
 
 .Timeline p:after {
     display: inline-block;
     content: "";
-    height: 4px;
-    background: lightgray;
+    height: 1px;
+    background: var(--color2);
     position: absolute;
     width: 100%;
     top: 50%;
