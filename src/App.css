@@ -1,11 +1,15 @@
 .section {
-    margin-top: 10vh;
-    margin-bottom: 20vh;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+html{
+    scroll-behavior:smooth
 }
 
 .App {
-    width: 60%;
-    margin: 0 auto;
 }
 
 p {
@@ -45,6 +49,15 @@ h4 {
     text-align: justify;
     margin: 0;
     color: var(--color1);
+}
+
+@media only screen and (max-width: 1000px) {
+    .section {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
 }
 
 /*.App-logo {*/

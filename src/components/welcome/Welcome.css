@@ -1,0 +1,48 @@
+.welcome {
+    background-color: var(--color2);
+}
+
+.gradient1{
+    background: linear-gradient(to left bottom, var(--color2) 50%, var(--color3) 50%);
+    min-height: 10vh;
+}
+
+.welcome h1 {
+    color: var(--color3);
+    font-size: 36px;
+    text-align: center;
+}
+
+.welcome h2 {
+    color: var(--color3);
+    font-size: 72px;
+    text-align: center;
+}
+
+.welcome p {
+    color: var(--color3);
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .welcome h1 {
+        color: var(--color3);
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .welcome h2 {
+        color: var(--color3);
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .welcome p {
+        color: var(--color3);
+        font-size: 1em;
+        text-align: center;
+        margin: 0;
+    }
+}

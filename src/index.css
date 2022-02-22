@@ -1,9 +1,12 @@
 :root {
+  --bg1: #ffffff;
+  --bg2: #000000;
+
   --bg: #ffffff;
   --color1: #000000;
-  --color2: #92d2be;
-  --color3: #f87967;
-  --color4: #F7ECDE;
+  --color2: #ffffff;
+  --color3: #000000;
+  --color4: #000000;
 }
 
 body {

@@ -1,0 +1,4 @@
+.gradient4{
+    background: linear-gradient(to left bottom, var(--bg) 50%, var(--color1) 50%);
+    min-height: 10vh;
+}

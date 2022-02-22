@@ -5,7 +5,7 @@ import "./Work.css";
 const MyWork = (props) => {
 
     return(
-        <div className="section">
+        <div className="section" id="projects">
             <h1>My work</h1>
             <h2>A selection of projects I've done</h2>
             <p>lorem ipsum</p>
