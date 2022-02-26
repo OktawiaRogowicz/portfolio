@@ -22,7 +22,7 @@ const OneYearPreview = (props) => {
                     if(element.year === props.year)
                     return (
                         <ProjectPreview
-                            key={element.key}
+                            key={element.id}
                             number={number}
                             date={element.date}
                             title={element.title}

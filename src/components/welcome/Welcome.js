@@ -10,7 +10,6 @@ const Welcome = () => {
                 <h2>Oktawia Rogowicz</h2>
                 <h1>and I'm a programmer</h1>
             </div>
-            <div className="gradient1"/>
         </div>
     );
 }

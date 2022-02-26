@@ -2,6 +2,7 @@ import React from "react"
 import {Nav, NavbarContainer, NavLogo, NavMobileIcon, NavItem, NavMenu, NavA} from "./NavbarElements";
 import { motion } from 'framer-motion';
 import styled from "styled-components";
+import DiamondNav from "./diamond-nav";
 
 const svgVariants = {
     hidden: {opacity: 0 },
@@ -49,21 +50,22 @@ const Navbar = () => {
                                 transform="matrix(-1 0 0 1 150 150)"
                                 fill="none"
                                 stroke="#000"
-                                stroke-width="15"
-                                stroke-linecap="square"
-                                stroke-dasharray="839.131262"
+                                strokeWidth="15"
+                                strokeLinecap="square"
+                                strokeDasharray="839.131262"
                                 variants={pathVariants}/>
                         </motion.svg>
                     </NavLogo>
                     <NavMobileIcon><i className="fa-solid fa-bars"></i></NavMobileIcon>
                     <NavMenu>
-                        <NavItem><NavA href="#welcome">Welcome</NavA></NavItem>
-                        <NavItem><NavA href="#aboutme">About me</NavA></NavItem>
-                        <NavItem><NavA href="#projects">Projects</NavA></NavItem>
-                        <NavItem><NavA href="#contact">Contact</NavA></NavItem>
+                        <NavItem><NavA className="navItem" href="#welcome">Welcome</NavA></NavItem>
+                        <NavItem><NavA className="navItem" href="#aboutme">About me</NavA></NavItem>
+                        <NavItem><NavA className="navItem" href="#projects">Projects</NavA></NavItem>
+                        <NavItem><NavA className="navItem" href="#contact">Contact</NavA></NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
+            <DiamondNav/>
         </div>
     );
 }

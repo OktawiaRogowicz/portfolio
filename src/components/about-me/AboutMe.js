@@ -34,6 +34,7 @@ const AboutMe = (props) => {
 
     return(
         <div id="aboutme" className="about">
+            <div className="gradient1"/>
             <div className="section">
                 <h1>About me</h1>
                 <h2>Hi!</h2>

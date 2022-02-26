@@ -16,7 +16,8 @@
 }
 
 .about {
-    background-color: var(--color3);
+    /*background-color: var(--color3);*/
+    background: black;
 }
 
 .about h1{
