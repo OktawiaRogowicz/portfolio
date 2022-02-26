@@ -37,22 +37,37 @@ const Navbar = () => {
             <Nav>
                 <NavbarContainer>
                     <NavLogo>
+                        {/*<motion.svg*/}
+                        {/*    id="eQld2ikCGP81"*/}
+                        {/*    viewBox="0 0 300 300"*/}
+                        {/*    variants={svgVariants}*/}
+                        {/*    initial="hidden"*/}
+                        {/*    animate="visible"*/}
+                        {/*    height="60px"*/}
+                        {/*    width="60px">*/}
+                        {/*    <motion.path*/}
+                        {/*        d="M0,125L0,0h-125c0-69.035594,55.964406-125,125-125s125,55.964406,125,125-55.964406,125-125,125"*/}
+                        {/*        transform="matrix(-1 0 0 1 150 150)"*/}
+                        {/*        fill="none"*/}
+                        {/*        stroke="#000"*/}
+                        {/*        strokeWidth="15"*/}
+                        {/*        strokeLinecap="square"*/}
+                        {/*        strokeDasharray="839.131262"*/}
+                        {/*        variants={pathVariants}/>*/}
+                        {/*</motion.svg>*/}
                         <motion.svg
                             id="eQld2ikCGP81"
-                            viewBox="0 0 300 300"
+                            viewBox="0 0 6 6"
                             variants={svgVariants}
                             initial="hidden"
                             animate="visible"
-                            height="60px"
-                            width="60px">
+                            height="30px"
+                            width="30px">
                             <motion.path
-                                d="M0,125L0,0h-125c0-69.035594,55.964406-125,125-125s125,55.964406,125,125-55.964406,125-125,125"
-                                transform="matrix(-1 0 0 1 150 150)"
+                                d="M2,0V6M4,6V-6"
                                 fill="none"
                                 stroke="#000"
-                                strokeWidth="15"
-                                strokeLinecap="square"
-                                strokeDasharray="839.131262"
+                                strokeWidth="0.5"
                                 variants={pathVariants}/>
                         </motion.svg>
                     </NavLogo>
