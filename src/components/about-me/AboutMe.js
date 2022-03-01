@@ -1,5 +1,6 @@
 import React from "react";
-import portrait from "./portrait.jpeg"
+//import portrait from "./portrait.jpeg"
+import portrait from "./port.png"
 import "./AboutMe.css";
 import Navbar from "../Navbar/Navbar";
 import styled from "styled-components";
@@ -26,7 +27,7 @@ const GButton = styled.button`
 
 const ContactMe = styled.div`
   align-items: center;
-  display: flex;
+  display: block;
   text-align: center;
 `
 
@@ -35,7 +36,7 @@ const AboutMe = (props) => {
     return(
         <div id="aboutme" className="about">
             <div className="gradient1"/>
-            <div className="section">
+            <div className="section reveal">
                 <h1>About me</h1>
                 <h2>Hi!</h2>
                 <div className="section-container">
@@ -50,9 +51,9 @@ const AboutMe = (props) => {
                             Privately I draw since I was young - I even once thought it will become my career! I love to cook and last year completed a challenge of testing out one hundred new recipes. I’m a big fan of board games, books, and indie music.
                         </p>
                         <ContactMe>
-                            <GButton><i className="fa-brands fa-linkedin fa-bounce" style={{fontSize: "32px", marginRight: "10px"}}/></GButton>
-                            <GButton><i className="fa-brands fa-github-square fa-bounce" style={{fontSize: "32px", marginRight: "10px"}}/></GButton>
-                            <GButton><i className="fa-solid fa-square-envelope fa-bounce" style={{fontSize: "32px", marginRight: "10px"}}/>oktawia.rogowicz.50@gmail.com</GButton>
+                            <GButton><i className="fa-brands fa-linkedin-in" style={{fontSize: "20px", marginRight: "10px"}}/>Oktawia Rogowicz</GButton>
+                            <GButton><i className="fa-brands fa-git" style={{fontSize: "20px", marginRight: "10px"}}/>OktawiaRogowicz</GButton>
+                            <GButton><i className="fa-solid fa-at" style={{fontSize: "20px", marginRight: "10px"}} />oktawia.rogowicz.50@gmail.com</GButton>
                         </ContactMe>
                     </div>
                 </div>

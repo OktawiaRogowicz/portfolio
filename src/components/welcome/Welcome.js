@@ -8,7 +8,8 @@ const Welcome = () => {
             <div id="welcome" className="section">
                 <p>My name is</p>
                 <h2>Oktawia Rogowicz</h2>
-                <h1>and I'm a programmer</h1>
+                <h1>and I'm a software developer</h1>
+                <a className="scroll" href="#">Read more</a>
             </div>
         </div>
     );

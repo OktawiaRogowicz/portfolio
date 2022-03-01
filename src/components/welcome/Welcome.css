@@ -1,5 +1,9 @@
 .welcome {
     background: var(--color2);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
 }
 
 .gradient1{
@@ -22,27 +26,67 @@
 .welcome p {
     color: var(--color3);
     font-size: 24px;
-    text-align: center;
     margin: 0;
+    text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 760px) {
     .welcome h1 {
         color: var(--color3);
         font-size: 1em;
-        text-align: center;
     }
 
     .welcome h2 {
         color: var(--color3);
         font-size: 2em;
-        text-align: center;
     }
 
     .welcome p {
         color: var(--color3);
         font-size: 1em;
-        text-align: center;
-        margin: 0;
+        margin: 0 0 100px;
     }
+}
+
+.scroll {
+    position: relative;
+    top: 20vh;
+    font-size: 0.933rem;
+    color: var(--color3);
+    text-decoration: none;
+    padding: 10px 10px 10px 40px;
+}
+.scroll:before {
+     position: absolute;
+     top:-2px;
+     left:0;
+     width: 22px;
+     height: 40px;
+     border: 2px solid var(--color3);
+     border-radius: 12px;
+     content:"";
+ }
+.scroll:after {
+     position: absolute;
+     top:9px;
+     left:12px;
+     width: 2px;
+     height: 8px;
+     background: var(--color3);
+     border-radius: 1px;
+     content:"";
+     animation-name: scroll;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+     animation-delay: 2s;
+ }
+
+@keyframes scroll {
+    0% { opacity: 1; height: 8px;}
+    20% { opacity: 1; height: 8px;}
+    30% { transform: translateY(0); opacity: 1; height: 19px;}
+    40% { opacity: 1;}
+    80% { transform: translateY(19px); opacity: 0; height: 0;}
+    81% { transform: translateY(0); opacity: 0; height: 8px;}
+    100% { opacity: 1; height: 8px;}
 }

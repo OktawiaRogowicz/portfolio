@@ -10,6 +10,7 @@ let projectElements = [
         year: "2019",
         date: "August 2016 - present",
         icon: "quick",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
     },
     {
         id: 2,
@@ -21,9 +22,10 @@ let projectElements = [
         year: "2019",
         date: "June 2013 - August 2016",
         icon: "work",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
     },
     {
-        id: 4,
+        id: 3,
         title: "Java, Spring, Hibernate, Angular",
         subtitle: "Website for a library",
         description:
@@ -32,6 +34,7 @@ let projectElements = [
         year: "2020",
         date: "September 2011 - June 2013",
         icon: "work",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
     },
     {
         id: 4,
@@ -43,17 +46,32 @@ let projectElements = [
         year: "2021",
         date: "August 2016 - present",
         icon: "quick",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
     },
     {
         id: 5,
         title: "C#",
         subtitle: "Mobile clicker game",
         description:
-            "A game made as a result of Mobile Games course taken during seventh semester. ",
+            "The future. Elon Musk has achieved his childhood dream to terraform Mars - and he did it completely alone. Ilona Tusk, his evil twin, does not want to be left behind - and driven by jealously, decides to marsoform Earth, filling it entirely with sand and killing all life. Become Ilona Tusk and terror the world! " +
+            "A clicker game made as a result of Mobile Games course taken during seventh semester.",
         buttonText: "View",
         year: "2021",
         date: "August 2016 - present",
         icon: "quick",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
+    },
+    {
+        id: 6,
+        title: "JavaScript, React",
+        subtitle: "Bot Battles",
+        description:
+            "One of two front-ent developers being responsible for a project made for Politechnika Lodzka: a website where we prepare multiplayer games for students to learn programming and AI by writting bots.",
+        buttonText: "View",
+        year: "2022",
+        date: "August 2016 - present",
+        icon: "bot_battles",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
     },
 ];
 

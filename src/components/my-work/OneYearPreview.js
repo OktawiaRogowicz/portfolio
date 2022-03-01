@@ -1,7 +1,7 @@
 import React from "react";
 import "./Work.css";
 import ProjectPreview from "./ProjectPreview";
-import projectElements from "./projectsElements";
+import projectElements from "./projectElements/projectsElements";
 
 const OneYearPreview = (props) => {
 
@@ -17,18 +17,19 @@ const OneYearPreview = (props) => {
                         element.buttonText !== undefined &&
                         element.buttonText !== null &&
                         element.buttonText !== "";
-                    let number = element.id % 2;
 
                     if(element.year === props.year)
                     return (
                         <ProjectPreview
                             key={element.id}
-                            number={number}
+                            id={element.id}
                             date={element.date}
                             title={element.title}
                             subtitle={element.subtitle}
                             description={element.description}
                             year={element.year}
+                            icon={element.icon}
+                            source={element.source}
                             dateClassName="date"
                         />
                     );

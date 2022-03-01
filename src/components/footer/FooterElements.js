@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 
 export const media = {
     desktop: (...args) => css`
-    @media (min-width: 870px) {
+    @media (min-width: 760px) {
       ${css(...args)};
     }
   `

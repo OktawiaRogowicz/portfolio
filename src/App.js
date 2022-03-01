@@ -9,42 +9,49 @@ import {useEffect, useState} from "react";
 
 function App() {
 
-    useEffect(() => {
-        const doSomething = (event) => {
-            const sections = document.querySelectorAll('scroll-section');
-            const nav = document.querySelectorAll('navItem');
-
-            let current = '';
-            sections.forEach( section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if(window.pageYOffset >= sectionTop) {
-                    current = section.getAttribute('id');
-                }
-            } )
-
-        };
-
-        window.addEventListener("scroll", doSomething,{ capture: true }) ;
-        return () => {
-            window.removeEventListener("scroll", doSomething);
-        };
-    }, []);
+    // useEffect(() => {
+    //     const doSomething = (event) => {
+    //         const sections = document.querySelectorAll('.scroll-section');
+    //         const reveals = document.querySelectorAll('.reveal');
+    //
+    //         for (let i = 0; i < sections.length; i++) {
+    //             const windowHeight = window.innerHeight;
+    //             const elementTop = sections[i].getBoundingClientRect().top;
+    //             const elementVisible = 150;
+    //             console.log("height: ", windowHeight, " top: ", elementTop);
+    //
+    //             if (elementTop < windowHeight - elementVisible) {
+    //                 reveals[i].classList.add("active");
+    //                 console.log("active for section ", i);
+    //                 console.log(reveals[i].classList);
+    //             } else {
+    //                 if(reveals[i])
+    //                     reveals[i].classList.remove("active");
+    //             }
+    //         }
+    //
+    //     };
+    //
+    //     window.addEventListener("scroll", doSomething,{ capture: true }) ;
+    //     return () => {
+    //         window.removeEventListener("scroll", doSomething);
+    //     };
+    // }, []);
 
     return (
         <div>
             <div className="App" style={{backgroundColor: "${color}"}}>
-                <div className="scroll-section">
+                <div id="welcome" className="scroll-section">
                     <Navbar/>
                     <Welcome/>
                 </div>
-                <div className="scroll-section">
+                <div id="aboutme" className="scroll-section">
                     <AboutMe/>
                 </div>
-                <div className="scroll-section">
+                <div id="projects" className="scroll-section">
                     <MyWork/>
                 </div>
-                <div className="scroll-section">
+                <div id="contact" className="scroll-section">
                     <Footer/>
                 </div>
             </div>

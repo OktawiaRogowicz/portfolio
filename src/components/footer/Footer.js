@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
             <div className="gradient4"/>
             <Footer>
-                <div id="contact" className="section">
+                <div id="contact" className="section reveal">
                     <ContactRow>
                         Contact me:
                     </ContactRow>
