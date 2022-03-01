@@ -8,7 +8,7 @@ const OneYearPreview = (props) => {
     return(
         <div>
             <div className="Timeline" >
-                <p>{props.year}</p>
+                <p><span>{props.year}</span></p>
             </div>
             <div>
                 {projectElements.map((element) => {
@@ -30,6 +30,7 @@ const OneYearPreview = (props) => {
                             year={element.year}
                             icon={element.icon}
                             source={element.source}
+                            link={element.link}
                             dateClassName="date"
                         />
                     );

@@ -17,6 +17,10 @@ const GButton = styled.button`
   display: inline-flex;
   font-family: 'Comfortaa', cursive;
   text-transform: uppercase;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
 `
 
 const GithubButton = (props) => {
@@ -31,6 +35,20 @@ const GithubButton = (props) => {
     )
 }
 
+const VisitProject = styled.a`
+  background-color: transparent;
+  border: none;
+  color: lightgray;
+  text-align: right;
+  display: inline-flex;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  &:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+`
+
 const ProjectPreview = (props) => {
     const number = props.id;
     const title = props.title;
@@ -38,15 +56,20 @@ const ProjectPreview = (props) => {
     const desc = props.description;
     const icon = props.icon;
     const source = props.source;
+    const link = props.link;
     const leafArray = [image1, image2, image3, image4, image5, image6];
     const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
 
     if(isMobile || number % 2 === 1) {
         return (
             <div className="ProjectPreview">
-                <img className="ProjectImage sm" src={leafArray[number-1]} alt="A screen of the project"/>
-                {/*<div className="ProjectImage"><img src={picture} alt="Logo"/></div>*/}
-                <div className="ProjectDescription sm">
+                <div className="project-preview-child project-image-container sm">
+                    <VisitProject href={link}>
+                        <img className="ProjectImage" src={leafArray[number-1]} alt="A screen of the project"/>
+                    </VisitProject>
+                    <p><span>Visit the website</span></p>
+                </div>
+                <div className="project-preview-child ProjectDescription sm">
                     <h3>{title}</h3>
                     <h4>{subtitle}</h4>
                     <p>{desc}</p>
@@ -56,13 +79,18 @@ const ProjectPreview = (props) => {
     }
     return (
         <div className="ProjectPreview">
-            <div className="ProjectDescription sm" style={{textAlign: "right"}}>
+            <div className="project-preview-child ProjectDescription sm" style={{textAlign: "right"}}>
                 <h3 style={{textAlign: "right"}}>{title}</h3>
                 <h4 style={{textAlign: "right"}}>{subtitle}</h4>
                 <p style={{textAlign: "right"}}>{desc}</p>
                 <GithubButton source={source}/>
             </div>
-            <img className="ProjectImage sm" src={leafArray[number-1]} alt="A screen of the project"/>
+            <div className="project-preview-child project-image-container sm">
+                <VisitProject href={link}>
+                    <img className="ProjectImage" src={leafArray[number-1]} alt="A screen of the project"/>
+                </VisitProject>
+                <p><span>Visit the website</span></p>
+            </div>
         </div>);
 }
 

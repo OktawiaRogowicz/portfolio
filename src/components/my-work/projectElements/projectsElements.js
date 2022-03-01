@@ -2,7 +2,7 @@ let projectElements = [
     {
         id: 1,
         title: "C",
-        subtitle: "MULTIPLAYER ASCII GAME",
+        subtitle: "Multiplayer ASCII game",
         description:
             "Result of my first year of programming ever - first bigger project written entirely in C.\n" +
             "It features and ncurses library, semaphores, mutexes and threads.",
@@ -47,6 +47,7 @@ let projectElements = [
         date: "August 2016 - present",
         icon: "quick",
         source: "https://github.com/OktawiaRogowicz/neuralNetwork",
+        link: "https://neural-network-react.herokuapp.com/",
     },
     {
         id: 5,
@@ -72,6 +73,7 @@ let projectElements = [
         date: "August 2016 - present",
         icon: "bot_battles",
         source: "https://github.com/OktawiaRogowicz/neuralNetwork",
+        link: "http://botbattles.iis.p.lodz.pl:3000/",
     },
 ];
 

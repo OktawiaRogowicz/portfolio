@@ -52,7 +52,7 @@
     position: relative;
     top: 20vh;
     font-size: 0.933rem;
-    color: var(--color3);
+    color: lightgray;
     text-decoration: none;
     padding: 10px 10px 10px 40px;
 }
@@ -62,7 +62,7 @@
      left:0;
      width: 22px;
      height: 40px;
-     border: 2px solid var(--color3);
+     border: 2px solid lightgray;
      border-radius: 12px;
      content:"";
  }
@@ -72,7 +72,7 @@
      left:12px;
      width: 2px;
      height: 8px;
-     background: var(--color3);
+     background: lightgray;
      border-radius: 1px;
      content:"";
      animation-name: scroll;
