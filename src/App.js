@@ -39,21 +39,19 @@ function App() {
     // }, []);
 
     return (
-        <div>
-            <div className="App" style={{backgroundColor: "${color}"}}>
-                <div id="welcome" className="scroll-section">
-                    <Navbar/>
-                    <Welcome/>
-                </div>
-                <div id="aboutme" className="scroll-section">
-                    <AboutMe/>
-                </div>
-                <div id="projects" className="scroll-section">
-                    <MyWork/>
-                </div>
-                <div id="contact" className="scroll-section">
-                    <Footer/>
-                </div>
+        <div className="App" style={{backgroundColor: "${color}"}}>
+            <div id="welcome" className="scroll-section">
+                <Navbar/>
+                <Welcome/>
+            </div>
+            <div id="aboutme" className="scroll-section">
+                <AboutMe/>
+            </div>
+            <div id="projects" className="scroll-section">
+                <MyWork/>
+            </div>
+            <div id="contact" className="scroll-section">
+                <Footer/>
             </div>
         </div>
     );
