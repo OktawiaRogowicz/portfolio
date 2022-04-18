@@ -7,6 +7,7 @@ const DiamondsContainer = styled.div`
   bottom: 30vh;
   mix-blend-mode: difference;
   color: #fff;
+  z-index: 1;
 
   @media screen and (max-width: 768px) {
     right: 5vw;
