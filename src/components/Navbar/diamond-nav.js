@@ -3,11 +3,16 @@ import styled from "styled-components";
 
 const DiamondsContainer = styled.div`
   position: fixed;
-  right: 15vh;
+  right: 15vw;
   bottom: 30vh;
   mix-blend-mode: difference;
   color: #fff;
 
+  @media screen and (max-width: 768px) {
+    right: 5vw;
+    bottom: 5vh;
+  }
+  
   @media screen and (max-width: 760px) {
     opacity: 0;
   }

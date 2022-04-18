@@ -46,6 +46,10 @@ const ContactMe = styled.div`
 
 const DescriptionParent = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 768px) {
+    display: inline-block;
+  }
 `
 
 const DescriptionChild = styled.div`
@@ -99,9 +103,9 @@ const Bubble = styled.div`
 const AboutMe = (props) => {
 
     return(
-        <div id="aboutme" className="about">
+        <div className="about">
             <div className="gradient1"/>
-            <div className="section reveal">
+            <div id="aboutme" className="section reveal">
                 <h1>About me</h1>
                 <h2>Hi!</h2>
                 <DescriptionParent>

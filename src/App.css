@@ -6,6 +6,12 @@
     min-height: 60vh;
 }
 
+@media only screen and (max-width: 768px) {
+    .section {
+        width: 80vw;
+    }
+}
+
 .scroll-section {
     scroll-snap-align: start;
 }
