@@ -71,8 +71,13 @@ const DescriptionChild = styled.div`
     animation: ${borderAnimation} 4s both ease-in-out infinite alternate-reverse;
   }
 
-  :not(:first-child) {
-    
+  h1, h2 {
+    text-align: left;
+    font-size: smaller;
+  }
+  
+  i {
+    font-size: 2rem;
   }
 `
 
@@ -132,6 +137,30 @@ const AboutMe = (props) => {
                         </ContactMe>
                     </DescriptionChild>
                 </DescriptionParent>
+
+                {/*<h1>Education</h1>*/}
+                {/*<h2>And work</h2>*/}
+
+                <DescriptionParent>
+                    <DescriptionChild>
+                        <h2>Atos | 04 / 2021 - current</h2>
+                        <h1>Junior Application Developer</h1>
+                    </DescriptionChild>
+                    <DescriptionChild>
+                        <i className="las la-briefcase" style={{color: "white"}}></i>
+                    </DescriptionChild>
+                </DescriptionParent>
+
+                <DescriptionParent>
+                    <DescriptionChild>
+                        <h2>Politechnika Lodzka | 10 / 2018 - 02 / 2022</h2>
+                        <h1>Bachelor of Science in Computer Science</h1>
+                    </DescriptionChild>
+                    <DescriptionChild>
+                        <i className="las la-graduation-cap" style={{color: "white"}}></i>
+                    </DescriptionChild>
+                </DescriptionParent>
+
             </div>
             <div className="gradient3"/>
         </div>

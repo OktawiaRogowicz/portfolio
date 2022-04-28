@@ -50,9 +50,9 @@ function App() {
             <div id="projects" className="scroll-section">
                 <MyWork/>
             </div>
-            <div id="contact" className="scroll-section">
-                <Footer/>
-            </div>
+            {/*<div id="contact" className="scroll-section">*/}
+            {/*    <Footer/>*/}
+            {/*</div>*/}
         </div>
     );
 }
