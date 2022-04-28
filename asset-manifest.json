@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3afcb55f.css",
+    "main.js": "/portfolio/static/js/main.1b31bae7.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ip-address-tracker.png": "/portfolio/static/media/ip-address-tracker.2dacacdc6a71150a7657.png",
+    "static/media/port.png": "/portfolio/static/media/port.24d6c8a444c5ac9d6aed.png",
+    "static/media/quick_help.png": "/portfolio/static/media/quick_help.2841455c61da55855660.png",
+    "static/media/bot_battles.png": "/portfolio/static/media/bot_battles.d5589b827e591d32cdad.png",
+    "static/media/chat-app-CSS-illustration.png": "/portfolio/static/media/chat-app-CSS-illustration.eee9305796c34684e336.png",
+    "static/media/sunnyside-agency-landing-page.png": "/portfolio/static/media/sunnyside-agency-landing-page.6c91f06bb6f86ee0b9a3.png",
+    "static/media/mobile_game.png": "/portfolio/static/media/mobile_game.6e30f3173062b0eaba9a.png",
+    "static/media/fat16.png": "/portfolio/static/media/fat16.8472a59694ac4f124c28.png",
+    "static/media/ascii_game.png": "/portfolio/static/media/ascii_game.f9f53e94ca4536de9cdd.png",
+    "index.html": "/portfolio/index.html",
+    "main.3afcb55f.css.map": "/portfolio/static/css/main.3afcb55f.css.map",
+    "main.1b31bae7.js.map": "/portfolio/static/js/main.1b31bae7.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3afcb55f.css",
+    "static/js/main.1b31bae7.js"
+  ]
+}
