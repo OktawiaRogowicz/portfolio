@@ -134,7 +134,6 @@ const ProjectPreview = (props) => {
     const title = props.title;
     const subtitle = props.subtitle;
     const desc = props.description;
-    const icon = props.icon;
     const source = props.source;
     const link = props.link;
     const leafArray = [image1, image2, image3, image4, image5, image6, image7, image8, image9];

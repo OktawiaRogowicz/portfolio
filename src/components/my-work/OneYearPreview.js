@@ -30,15 +30,12 @@ const OneYearPreview = (props) => {
                         <ProjectPreview
                             key={element.id}
                             id={element.id}
-                            date={element.date}
                             title={element.title}
                             subtitle={element.subtitle}
                             description={element.description}
                             year={element.year}
-                            icon={element.icon}
                             source={element.source}
                             link={element.link}
-                            dateClassName="date"
                         />
                     );
                 })}
