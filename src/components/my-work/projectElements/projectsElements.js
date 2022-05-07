@@ -61,7 +61,7 @@ let projectElements = [
     //     link: "http://botbattles.iis.p.lodz.pl:3000/",
     // },
     {
-        id: 7,
+        id: 6,
         title: "JavaScript, React, HTML, CSS",
         subtitle: "Sunnyside agency landing page",
         description:
@@ -71,7 +71,7 @@ let projectElements = [
         link: "https://oktawiarogowicz.github.io/sunnyside-agency",
     },
     {
-        id: 8,
+        id: 7,
         title: "JavaScript, React, HTML, CSS",
         subtitle: "IP address tracker",
         description:
@@ -81,7 +81,7 @@ let projectElements = [
         link: "https://oktawiarogowicz.github.io/ip-address-tracker",
     },
     {
-        id: 9,
+        id: 8,
         title: "JavaScript, React, HTML, CSS",
         subtitle: "Chat app CSS illustration",
         description:
