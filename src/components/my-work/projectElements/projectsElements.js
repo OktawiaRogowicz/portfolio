@@ -2,6 +2,18 @@ let projectElements = [
     {
         id: 1,
         title: "C",
+        subtitle: "FAT16 reader",
+        description:
+            "Another C project. Exploration of data structures, binary data and data allocation.",
+        buttonText: "View Backend Projects",
+        year: "2019",
+        date: "June 2013 - August 2016",
+        icon: "work",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
+    },
+    {
+        id: 2,
+        title: "C",
         subtitle: "Multiplayer ASCII game",
         description:
             "Result of my first year of programming ever - first bigger project written entirely in C.\n" +
@@ -10,18 +22,6 @@ let projectElements = [
         year: "2019",
         date: "August 2016 - present",
         icon: "quick",
-        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
-    },
-    {
-        id: 2,
-        title: "C",
-        subtitle: "FAT16 reader",
-        description:
-            "Another C project. Exploration of data structures, binary data and data allocation.",
-        buttonText: "View Backend Projects",
-        year: "2019",
-        date: "June 2013 - August 2016",
-        icon: "work",
         source: "https://github.com/OktawiaRogowicz/neuralNetwork",
     },
     {
@@ -38,19 +38,6 @@ let projectElements = [
     },
     {
         id: 4,
-        title: "Python, TensorFlow, Keras, JavaScript, TensorFlow.js, Node.js",
-        subtitle: "Quick, Draw! wannabe",
-        description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        buttonText: "View",
-        year: "2021",
-        date: "August 2016 - present",
-        icon: "quick",
-        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
-        link: "https://neural-network-react.herokuapp.com/",
-    },
-    {
-        id: 5,
         title: "C#",
         subtitle: "Mobile clicker game",
         description:
@@ -61,6 +48,19 @@ let projectElements = [
         date: "August 2016 - present",
         icon: "quick",
         source: "https://github.com/OktawiaRogowicz/neuralNetwork",
+    },
+    {
+        id: 5,
+        title: "Python, TensorFlow, Keras, JavaScript, TensorFlow.js, Node.js",
+        subtitle: "Quick, Draw! wannabe",
+        description:
+            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
+        buttonText: "View",
+        year: "2021",
+        date: "August 2016 - present",
+        icon: "quick",
+        source: "https://github.com/OktawiaRogowicz/neuralNetwork",
+        link: "https://neural-network-react.herokuapp.com/",
     },
     // {
     //     id: 6,
@@ -78,15 +78,15 @@ let projectElements = [
     {
         id: 7,
         title: "JavaScript, React, HTML, CSS",
-        subtitle: "Chat app CSS illustration",
+        subtitle: "Sunnyside agency landing page",
         description:
-            "Chat app CSS illustration challenge from Frontend Mentor. Third project supposed to challenge my CSS skills!",
+            "Solution to the Sunnyside agency landing page challenge on Frontend Mentor! First challenge tried & one of the first project made using React and Styled components.",
         buttonText: "View",
         year: "2022",
         date: "",
-        icon: "chat-app-css-illustration",
-        source: "https://github.com/OktawiaRogowicz/css-mobile-app-mockup",
-        link: "https://oktawiarogowicz.github.io/CSS-mobile-app-mockup/",
+        icon: "sunnyside-agency-landing-page",
+        source: "https://github.com/OktawiaRogowicz/sunnyside-agency",
+        link: "https://oktawiarogowicz.github.io/sunnyside-agency",
     },
     {
         id: 8,
@@ -104,15 +104,15 @@ let projectElements = [
     {
         id: 9,
         title: "JavaScript, React, HTML, CSS",
-        subtitle: "Sunnyside agency landing page",
+        subtitle: "Chat app CSS illustration",
         description:
-            "Solution to the Sunnyside agency landing page challenge on Frontend Mentor! First challenge tried & one of the first project made using React and Styled components.",
+            "Chat app CSS illustration challenge from Frontend Mentor. Third project supposed to challenge my CSS skills!",
         buttonText: "View",
         year: "2022",
         date: "",
-        icon: "sunnyside-agency-landing-page",
-        source: "https://github.com/OktawiaRogowicz/sunnyside-agency",
-        link: "https://oktawiarogowicz.github.io/sunnyside-agency",
+        icon: "chat-app-css-illustration",
+        source: "https://github.com/OktawiaRogowicz/css-mobile-app-mockup",
+        link: "https://oktawiarogowicz.github.io/CSS-mobile-app-mockup/",
     },
 ];
 

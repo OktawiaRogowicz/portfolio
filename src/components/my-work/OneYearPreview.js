@@ -2,6 +2,13 @@ import React from "react";
 import "./Work.css";
 import ProjectPreview from "./ProjectPreview";
 import projectElements from "./projectElements/projectsElements";
+import styled from "styled-components";
+
+const ProjectsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+`
 
 const OneYearPreview = (props) => {
 
@@ -10,7 +17,7 @@ const OneYearPreview = (props) => {
             <div className="Timeline" >
                 <p><span>{props.year}</span></p>
             </div>
-            <div>
+            <ProjectsContainer>
                 {projectElements.map((element) => {
                     let isWorkIcon = element.icon === "work";
                     let showButton =
@@ -35,7 +42,7 @@ const OneYearPreview = (props) => {
                         />
                     );
                 })}
-            </div>
+            </ProjectsContainer>
         </div>
     );
 }

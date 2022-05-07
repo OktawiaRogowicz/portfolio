@@ -106,7 +106,6 @@ const Container = styled.div`
   margin-bottom: 10vh;
   display: inline-flex;
   margin-left: 2rem;
-  order: ${props => props.order};
 
   @media only screen and (max-width: 768px) {
     display: inline-block;
@@ -142,7 +141,7 @@ const ProjectPreview = (props) => {
     const isMobile = useMediaQuery({query: `(max-width: 768px)`});
 
     return (
-        <Container>
+        <Container style={{order: "$(number)"}}>
             <Subcontainer
                 className="project-image-container sm"
                 style={isMobile || number % 2 == 1 ? {order: "1"} : {order: "2"}}
